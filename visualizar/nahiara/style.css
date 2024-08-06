@@ -1,0 +1,242 @@
+html{
+    scroll-behavior: smooth ;
+  }
+  
+  body{
+      background-image: url(pueblo.avif);
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-attachment: fixed;
+      background-position: center;
+  }
+  
+  h1{
+      color: aliceblue;
+      text-align: center;
+      font-size: 30px;
+      
+  }
+  
+  main{
+      text-align: center;
+  }
+  
+  .transparent-box {
+      background-color: rgba(0, 0, 0, 0.5);
+      padding: 60px;
+      color: #fff;
+      margin: 90px auto;
+      width: 900px;;
+      border-radius: 10px;
+      font-size: 26px;
+    }
+  
+  
+    .imagen{
+      width: 200px;
+      
+    }
+  
+    .box2 {
+      background-color: rgba(0, 0, 0, 0.5);
+      padding: 60px;
+      color: #fff;
+      margin: 30px auto;
+      border-radius: 10px;
+      font-size: 26px;
+      width: 900px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      height: 40vh;
+    }
+    
+    .box2 {
+      margin-top: 80px;
+      text-align: center;
+    }
+  
+    .box3{
+      background-color: rgba(0, 0, 0, 0.5);
+      padding: 60px;
+      color: #fff;
+      margin: 90px auto;
+      width: 900px;
+      border-radius: 10px;
+      font-size: 26px;
+      display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 20vh;
+    }
+  
+    .buttom {
+      text-align: center;
+      margin-bottom: 90px auto;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      display: inline-block;
+     align-items: center;
+    
+    }
+    
+    .buttom {
+      display: inline-block;
+      padding: 15px 80px;
+      background-color: rgba(2, 2, 2, 0.7);
+      color: #ffffff;
+      text-decoration: none;
+      margin: 25px;
+      border-radius: 10px;
+      transition: background-color 0.3s, color 0.3s;
+      
+    }
+    
+    .buttom:hover {
+      background-color: #111010;
+      color: #fff;
+      box-shadow: 0 0 10px #552366, 0 0 40px #552366, 0 0 80px #552366 ;
+    }
+  
+    header{
+      text-align: center;
+    }
+  
+    .box4{
+      background-color: rgba(0, 0, 0, 0.5);
+      padding: 60px;
+      color: #fff;
+      margin: 90px auto;
+      width: 900px;
+      border-radius: 10px;
+      font-size: 26px;
+      display: flex ;
+    }
+  
+    .texto {
+      margin-right: 40px;
+      text-align: left;
+      overflow: hidden;
+      line-height: 1.5;
+   }
+  
+      .Lou {
+          
+        max-width: 120%;
+        height: 390px;
+        float: left;
+        margin-right: 40px;
+        transform: translateY(180px);
+        
+      
+  
+        } 
+  
+  
+    .box5{
+      background-color: rgba(0, 0, 0, 0.5);
+      padding: 60px;
+      color: #fff;
+      margin: 90px auto;
+      width: 900px;
+      border-radius: 10px;
+      font-size: 26px;
+      display: flex ;
+      justify-content: center;
+      
+    
+    }
+  
+   .titu{
+      margin-right: 40px;
+      text-align: center;
+      overflow: hidden;
+   }
+  
+    .nose{
+      width: 250px;
+      margin-left: 25px;
+  
+    }
+  
+  
+  
+    /* Estilos para el botón y el contenedor del menú desplegable */
+  .dropbtn {
+    background-color: #000000;
+    color: rgb(24, 24, 24);
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+    
+  }
+  
+    /* Estilos para el contenido del menú desplegable */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    min-width: 160px;
+    z-index: 1;
+    background-color: rgba(2, 2, 2, 0.7);
+    color: #101010;
+    transition: background-color 0.3s, color 0.3s;
+    text-align: center;
+  }
+  
+  .dropdown-content:hover{
+    background-color: #111010;
+    color: #020202;
+    box-shadow: 0 0 10px #552366, 0 0 40px #552366, 0 0 80px #552366 ;
+  }
+  
+  
+  
+  .dropdown-content a {
+    color: rgb(255, 255, 255);
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  /* Cambiar color del enlace cuando se pasa el ratón sobre él */
+  .dropdown-content a:hover {
+    background-color: #000000;
+  
+  }
+  
+  /* Mostrar el menú cuando el botón se haga clic */
+  .dropdown:hover .dropdown-content {
+    display: block;
+    
+  }
+  
+  .box6{
+    background-color: rgba(0, 0, 0, 0.5);
+      padding: 60px;
+      color: #fff;
+      margin: 90px auto;
+      width: 900px;
+      border-radius: 10px;
+      font-size: 26px;
+      display: flex ;
+  }
+  
+  
+  .box7{
+    background-color: rgba(0, 0, 0, 0.5);
+      padding: 60px;
+      color: #fff;
+      margin: 90px auto;
+      width: 900px;
+      border-radius: 10px;
+      font-size: 26px;
+      display: flex ;
+  }

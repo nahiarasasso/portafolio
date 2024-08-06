@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio web</title>
+    <link rel="icon" href="imagenes/iconon.png">
+    <link href="style2.css" rel="stylesheet">
+</head>
+<body>
+
+    <header>
+        <div class="contenedor">
+            <div class="buttom">
+                <a href="index.html" class="buttom">Inicio</a>
+                <a href="index2.html" class="buttom">Conocimiento</a>
+                <a href="index4.html" class="buttom">Proyectos</a>
+                <a href="index3.html" class="buttom">Contacto</a>
+            </div>
+        </div>
+    </header>
+    
+   
+   <section class="sobre-mi" id="sobre-mi">
+    <div class="contenido fila">
+        <div class="contenedor-img">
+            <img src="imagenes/imagen habilidades.jpg" alt="">
+        </div>
+        
+        <div class="info">
+            <div class="opciones">
+                <button class="selected" id="btn-info-sobre-mi">Sobre Mí</button>
+                <button id="btn-skills">Skills</button>
+            </div>
+            <div class="info-opcion" id="info-sobre-mi">
+                <h2>Hola Soy <span class="color">Nahiara</span> estas son mis:</h2>
+                <p class="texto-habilidades">
+                    <h3 class="habilidad">Habilidades Técnicas: </h3>
+                <ul>
+                      <li>Programación en varios lenguajes, incluidos Python, C , C++ y JavaScript.</li>
+                      <li>Experiencia en diseño web utilizando HTML, CSS y javaScrip</li>
+                      <li>Familiaridad con herramientas de desarrollo como Git y Visual Studio Code.</li>
+                
+                </ul>
+                </p>
+            </div>
+            <div class="info-opcion" id="info-skills">
+                
+
+                <div class="skill">
+                    <div class="texto">
+                        <h3>HTML</h3>
+                        <h3>50%</h3>
+                    </div>
+                    <div class="contenedor-barra">
+                        <div class="relleno"></div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <div class="texto">
+                        <h3>CSS</h3>
+                        <h3>50%</h3>
+                    </div>
+                    <div class="contenedor-barra">
+                        <div class="relleno"></div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <div class="texto">
+                        <h3>JAVASCRIPT</h3>
+                        <h3>20%</h3>
+                    </div>
+                    <div class="contenedor-barra">
+                        <div class="relleno"></div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <div class="texto">
+                        <h3>PHYTON</h3>
+                        <h3>20%</h3>
+                    </div>
+                    <div class="contenedor-barra">
+                        <div class="relleno"></div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <div class="texto">
+                        <h3>PHP</h3>
+                        <h3>40%</h3>
+                    </div>
+                    <div class="contenedor-barra">
+                        <div class="relleno"></div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <div class="texto">
+                        <h3>C</h3>
+                        <h3>20%</h3>
+                    </div>
+                    <div class="contenedor-barra">
+                        <div class="relleno"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+<script>
+    const btnSkill = document.querySelector("#btn-skills");
+const btnInfo = document.querySelector("#btn-info-sobre-mi");
+let itemSkills = document.querySelectorAll('.relleno');
+
+btnSkill.addEventListener('click',function(){
+    document.querySelector('#info-sobre-mi').style.display = 'none';
+    document.querySelector('#info-skills').style.display = 'block';
+
+    btnInfo.classList.remove('selected');
+    btnSkill.classList.add("selected");
+
+    itemSkills[0].style.animation = 'animHtml 2s forwards';
+    itemSkills[1].style.animation = 'animCss 2s forwards';
+    itemSkills[2].style.animation = 'animJs 2s forwards';
+    itemSkills[3].style.animation = 'animPhyton 2s forwards';
+    itemSkills[4].style.animation = 'animPHP 2s forwards';
+    itemSkills[5].style.animation = 'animC 2s forwards';
+
+});
+
+btnInfo.addEventListener('click',function(){
+    document.querySelector('#info-sobre-mi').style.display = 'block';
+    document.querySelector('#info-skills').style.display = 'none';
+
+    btnInfo.classList.add('selected');
+    btnSkill.classList.remove("selected");
+});
+</script>
+</body>
+</html>

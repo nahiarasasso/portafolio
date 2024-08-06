@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link href="style1.css" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="logo.png">
+    <title>Comentarios</title>
+</head>
+<body>
+    <div id="comentariosContainer">
+        <h1>Deja tu comentario</h1>
+        <form action="guardar_comentario.php" method="post">
+
+
+            <label for="nombre"><p> Nombre:</p> </label>
+            <input class="nose" type="text" id="nombre" name="nombre" required>
+   
+            <label for="opciones"> <p> Libros:</p></label>
+        <select class="tete" id="opciones" name="opciones">
+            <option value="Libro1">Libro 1</option>
+            <option value="Libro2">Libro 2</option>
+            <option value="Libro3">Libro 3</option>
+        </select><br>
+           
+            <label for="comentario"> <p>Comentario:</p> </label>
+            <textarea class="lolo" id="comentario" name="comentario" rows="4" cols="50" required></textarea><br>
+   
+            <input type="submit" value="Enviar comentario">
+        </form>
+
+
+        <h2>Comentarios anteriores</h2>
+        <div id="comentarios" class="NENE"></div>
+
+
+    </div>
+   
+    <script src="index.js"></script>
+</body>
+</html>
